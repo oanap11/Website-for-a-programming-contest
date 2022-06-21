@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+
+<html lang="ro">
+ 
+ <head>
+  <title>Subiecte</title>
+  <meta charset="utf-8"> 
+  <link type="text/css" rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/jpg" href="imagini/logo3.jpg">
+ </head>
+ 
+ <body>
+  <div class="header">  
+   <img src="imagini/logo3.jpg" alt="Logo">
+   <h1>Subiecte</h1>
+  </div>
+  
+  <div id="meniu_nav">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="regulament.html">Regulament</a></li>
+    <li><a href="organizatori.html">Organizatori</a></li>
+    <li><a href="sponsori.html">Sponsori</a></li>
+    <li><a href="noutati.html">Noutati</a></li>
+    <li><a href="participanti.php">Participanti</a></li>
+    <li><a href="subiecte.html">Subiecte</a></li>
+    <li><a href="rezultate.html">Rezultate</a></li>
+    <li><a href="contact.html">Contact</a></li>
+   </ul>  
+  </div>
+  
+  <div>  
+  <img class="panou_img" src="imagini/test.gif" alt="Computer gif">
+  </div>
+  
+  <div class="panou">
+   <h5 style="color:white">Resurse utile pentru programare</h5>
+   <ul>
+    <li><a href="https://infoarena.ro/" target="_blank">inforarena</a></li>
+    <li><a href="http://www.cplusplus.com/doc/tutorial/" target="_blank">C++</a></li>
+    <li><a href="https://info64.ro/" target="_blank">info64</a></li>
+    <li><a href="https://www.nesoacademy.org/" target="_blank">Neso Academy</a></li>
+    <li><a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a></li>
+    <li><a href="https://www.w3schools.com/" target="_blank">W3Schools Online Web Tutorials</a></li>    
+   </ul>  
+  </div>
+  
+  <div class="main"> 
+   <h2>Exemple de subiecte</h2>
+   <p>1. Fie  subalgoritmul prelucrare(x,  n)definit mai jos, care primește ca și parametru un șir xcu nnumere reale nenule (x[1], x[2], ..., x[n]) și numărul întreg n(1 ≤ n ≤ 10000). Operatorul /reprezintă împărțirea reală (ex. 3/2=1,5).</p>
+   <pre>
+    <code>
+    Subalgoritm prelucrare(x, n):
+    	p ← 1
+    	Pentru k ← 1, n -1 execută
+    	p← p + 1
+    	Pentrui ← 1, n -1 execută
+    		Dacă x[i] > x[i + 1] atunci
+    		x[i] ← x[i] * x[i + 1]
+    		x[i + 1] ← x[i] /x[i + 1]
+    		x[i] ← x[i] /x[i + 1]
+    		SfDacă
+    	SfPentru
+    	SfPentru
+    	n ← p
+    	SfSubalgoritm
+    </code>
+   </pre>
+   <p>Care dintre următoarele afirmații descriu modificarea aplicată șirului xîn urma apelului subalgoritmului prelucrare(x, n)?
+   <ol type="A">
+    <li>Elementele șirului xvor rămâne nemodificate</li>
+    <li>Elementele șirului xvor fiîn ordine descrescătoare</li>
+    <li>Elementele șirului xvor fiîn ordine crescătoare</li>
+    <li>Numărul neste decrementat cu o unitate</li>
+   </ol>
+   </p>
+   <br>
+   <p>2. O companie de publicitate face reclamă la un nou sortiment de ciocolată și intenționeazăsă distribuie mostre de ciocolată la n(10 ≤ n≤ 10000000) copii care sunt așezați într-un cerc. Angajații companiei își dau seama că  distribuirea  de  mostre  tuturor  copiilor  ar  costa  foarte  mult.  În  consecință,  decid  să distribuiemostre fiecărui al k-lea (0 < k< n) copil din cei n, numărând copiii din kîn k(atunci când numărătoarea ajunge la ultimul copil, ea continuă cu primul copil și așamai departe). În numărătoare se vor considera toți copiii, fie că au primit sau nu ciocolată. Numărătoarea se oprește atunci când o ciocolată ar trebui distribuită unui copil care deja a primit.</p>
+   <p>Cerințe:
+   <ol type"a">
+    <li>Precizați proprietatea pe care trebuie să o îndeplinească numerele de ordine ale copiilor care primesc ciocolată. Justificați răspunsul. </li>
+    <li>Explicați (în limbaj natural și formule matematice) care este numărul de copii care primesc ciocolată? Justificați răspunsul. 
+    <li> Scrieți  un  subalgoritm  care  determină  numărul  copiilor  (nr)  care  nu  primesc  mostre  de  ciocolată. Parametrii de intrare sunt numerele naturale nși k, iar parametrul de ieșire va fi numărul natural nr.</li>
+    </ol>
+   </p><br>
+   <p>3. Realizarea unei aplicatii Web pe o tema propusa.</p>
+  </div>
+  
+  <div id="footer">
+  Copyright &copy; 2021 Code Wars. All Rights Reserved
+  </div>
+	
+ </body>
+</html>

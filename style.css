@@ -1,0 +1,130 @@
+/* ----------- LAYOUT ----------- */
+
+body {
+background-color: #3aafa9;
+margin: 0px;
+font-family: Helvetica,Verdana, serif;
+font-size: 16px;
+}
+
+/* ----------- ANTET ----------- */
+h1 {
+font-size: 35px;
+color: #17252a;
+font-weight: bold;
+text-align: center;
+margin: 0px;
+}
+
+/* ----------- HEADER ----------- */
+.header {
+background-color: #2b7a78;
+margin: 10px;
+height: 100px;
+border-radius: 7px;
+}
+
+.header img {
+float: left;
+width: 100px;
+height: 100px;
+background: #555;
+border-radius: 7px;
+}
+
+.header h1 {
+position: relative;
+top: 35px;
+text-align: center;
+}
+
+/* ----------- NAVIGARE ----------- */
+#meniu_nav ul {
+background-color: #2b7a78;
+margin: 10px;
+border-radius: 7px;
+padding: 10px;
+list-style-type: none;
+text-align: center;
+}
+
+#meniu_nav ul li {
+display: inline;
+}
+
+#meniu_nav ul li a {
+text-decoration: none;
+padding: .2em 1em;
+color: #fff;
+font-weight: bold;
+
+}
+
+#meniu_nav ul li a:hover {
+color: #000;
+}
+
+/* ----------- SECTIUNEA PRINCIPALA ----------- */
+.main {
+
+background-color: #def2f1;
+margin-left: 10px;
+margin-right: 320px;
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 7px;
+padding: 20px;
+font-size: 110%;
+
+}
+
+.panou {
+background-color: #2b7a78;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 0px;
+margin-bottom: 10px;
+border-radius: 7px;
+padding: 20px;
+font-size: 105%;
+float: right;
+width: 260px;
+clear: right;
+}
+
+.panou ul li a {
+text-decoration: none;
+padding: .2em 1em;
+color: white;
+padding: 10px;
+}
+
+.panou_img {
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 0px;
+margin-bottom: 10px;
+border-radius: 7px;
+float: right;
+width: 300px;
+clear: right;
+opacity: 1.0;
+transition: opacity 1s ease-in-out;
+}
+
+.panou_img:hover {
+opacity: 0.5;
+}
+
+/* ----------- FOOTER ----------- */
+#footer {
+background-color: #2b7a78;
+margin: 10px;
+border-radius: 7px;
+height: 40px;
+clear: both;
+color: white;
+text-align: center;
+padding: 15px;
+font-size: 90%;
+}
